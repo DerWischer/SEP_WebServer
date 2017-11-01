@@ -15,27 +15,37 @@ namespace WebServer.Controllers
     public class FileInfoController : Controller
     {
         private readonly IFileProvider fileProvider;
+        private static IEnumerable<FileInfo> scannedFiles;
 
         public FileInfoController(IFileProvider fileProvider)
         {
-            this.fileProvider = fileProvider;
+            this.fileProvider = fileProvider;            
         }
 
         [HttpGet] // url: api/fileinfo
         public IEnumerable<FileInfo> GetAllFiles()
-        {
-            return scanRecursively("Storage/", "null");
+        {           
+            return ScanRecursively();
         }
 
         [HttpGet("{id}")] // url: api/fileinfo/{id}
         public IActionResult GetFileById(string Id)
         {
-            FileInfo f = GetAllFiles().FirstOrDefault((var) => var.Id.Equals(Id));
+            FileInfo f = ScanRecursively().FirstOrDefault((var) => var.Id.Equals(Id));
             if (f == null)
                 return NotFound();
             return Ok(f);
         }
         
+        // Scanes the "Storage" directory and returns a list of scanned files.
+        private IEnumerable<FileInfo> ScanRecursively()
+        {
+            if (scannedFiles is null)
+            { 
+                scannedFiles = scanRecursively("Storage/", "null");
+            }
+            return scannedFiles;
+        }
         private IEnumerable<FileInfo> scanRecursively(string path, string parentId)
         {            
             List<FileInfo> files = new List<FileInfo>();

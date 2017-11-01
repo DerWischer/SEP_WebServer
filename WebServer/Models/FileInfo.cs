@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebServer.Models
 {
+    // Represents the presentation of files as used by the client. When serialized to JSON it matched the file format expected by the client.
     public class FileInfo
     {
         public string Id { get; set; }
