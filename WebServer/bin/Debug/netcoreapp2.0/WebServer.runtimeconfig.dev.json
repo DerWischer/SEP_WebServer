@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/lemongrab/.dotnet/store/|arch|/|tfm|",
-      "/home/lemongrab/.nuget/packages",
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\calle\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\calle\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

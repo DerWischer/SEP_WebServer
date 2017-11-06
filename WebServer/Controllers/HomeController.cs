@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebServer.Controllers
 {
-    [Route("")]
+    [Route("home")]
     public class HomeController : Controller
     {
         public IActionResult Index()
