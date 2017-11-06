@@ -13115,33 +13115,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\calle\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/lemongrab/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\calle\\Documents\\GitHub\\SEP_WebServer\\WebServer\\WebServer.csproj",
+      "projectUniqueName": "/home/lemongrab/Documents/SEP/SEP_WebServer/WebServer/WebServer.csproj",
       "projectName": "WebServer",
-      "projectPath": "C:\\Users\\calle\\Documents\\GitHub\\SEP_WebServer\\WebServer\\WebServer.csproj",
-      "packagesPath": "C:\\Users\\calle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\calle\\Documents\\GitHub\\SEP_WebServer\\WebServer\\obj\\",
+      "projectPath": "/home/lemongrab/Documents/SEP/SEP_WebServer/WebServer/WebServer.csproj",
+      "packagesPath": "/home/lemongrab/.nuget/packages/",
+      "outputPath": "/home/lemongrab/Documents/SEP/SEP_WebServer/WebServer/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\calle\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/lemongrab/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13158,16 +13153,16 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "2.0.0"
           }
