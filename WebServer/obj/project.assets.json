@@ -13115,7 +13115,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joshua\\.nuget\\packages\\": {},
+    "C:\\Users\\calle\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13124,17 +13124,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joshua\\Documents\\Chalmers\\SEP\\WebApp\\SEP_webserver\\WebApp\\WebServer\\WebServer.csproj",
+      "projectUniqueName": "C:\\Users\\calle\\Documents\\GitHub\\SEP_WebServer\\WebServer\\WebServer.csproj",
       "projectName": "WebServer",
-      "projectPath": "C:\\Users\\Joshua\\Documents\\Chalmers\\SEP\\WebApp\\SEP_webserver\\WebApp\\WebServer\\WebServer.csproj",
-      "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joshua\\Documents\\Chalmers\\SEP\\WebApp\\SEP_webserver\\WebApp\\WebServer\\obj\\",
+      "projectPath": "C:\\Users\\calle\\Documents\\GitHub\\SEP_WebServer\\WebServer\\WebServer.csproj",
+      "packagesPath": "C:\\Users\\calle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\calle\\Documents\\GitHub\\SEP_WebServer\\WebServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\calle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

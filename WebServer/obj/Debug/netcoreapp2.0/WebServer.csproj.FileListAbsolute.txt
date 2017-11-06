@@ -9,3 +9,14 @@ C:\Users\Joshua\Documents\Chalmers\SEP\WebApp\SEP_webserver\WebApp\WebServer\obj
 C:\Users\Joshua\Documents\Chalmers\SEP\WebApp\SEP_webserver\WebApp\WebServer\bin\Debug\netcoreapp2.0\WebServer.pdb
 C:\Users\Joshua\Documents\Chalmers\SEP\WebApp\SEP_webserver\WebApp\WebServer\obj\Debug\netcoreapp2.0\WebServer.dll
 C:\Users\Joshua\Documents\Chalmers\SEP\WebApp\SEP_webserver\WebApp\WebServer\obj\Debug\netcoreapp2.0\WebServer.pdb
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\bin\Debug\netcoreapp2.0\WebServer.deps.json
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\bin\Debug\netcoreapp2.0\WebServer.runtimeconfig.json
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\bin\Debug\netcoreapp2.0\WebServer.runtimeconfig.dev.json
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\bin\Debug\netcoreapp2.0\WebServer.dll
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\bin\Debug\netcoreapp2.0\WebServer.pdb
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\obj\Debug\netcoreapp2.0\WebServer.csprojResolveAssemblyReference.cache
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\obj\Debug\netcoreapp2.0\WebServer.csproj.CoreCompileInputs.cache
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\obj\Debug\netcoreapp2.0\WebServer.AssemblyInfoInputs.cache
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\obj\Debug\netcoreapp2.0\WebServer.AssemblyInfo.cs
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\obj\Debug\netcoreapp2.0\WebServer.dll
+C:\Users\calle\Documents\GitHub\SEP_WebServer\WebServer\obj\Debug\netcoreapp2.0\WebServer.pdb

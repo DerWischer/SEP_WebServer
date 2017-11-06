@@ -20,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Home\account.cshtml" />
+    <None Include="Views\Home\index.cshtml" />
+    <None Include="Views\Home\login.cshtml" />
     <None Include="wwwroot\Scripts\jquery-3.2.1.min.js" />
   </ItemGroup>
 
